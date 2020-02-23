@@ -9,31 +9,15 @@ ul li {
   grid-template-areas: 
   "h h"
   "n c";
-    grid-template-rows: 60px 1fr;
-      grid-template-columns: 200px 10fr;
-      grid-gap: 10px;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 200px 1fr;
+  grid-gap: 10px;
 }
 
-.nav{
-  grid-area: n;
-  background-color: burlywood;
-}
+.app-wrapper-content{
 
-.header{
-  grid-area: h;
-  background-color: green;
-}
-
-.content{
   grid-area: c;
   background-color: cornflowerblue;
+    
 }
 
-.header img{
-  width: 50px;
-}
-
-.content img{
-  width: 100%;
-  height: 400px;
-}
