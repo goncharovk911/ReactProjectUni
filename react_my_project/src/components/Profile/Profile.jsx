@@ -1,13 +1,12 @@
 import React from 'react';
 import classes from './Profile.module.css'
 import MyPost from './MyPosts/MyPosts'
+import ProfileInfo from './ProfileInfo/ProfileInfo'
 const Profile = () =>{
     return(
     <div className= {classes.content}>
-        <div>
-          <img src='https://unsplash.com/photos/LY1eyQMFeyo/download' />
-        </div>
-        <MyPost hey= 'Yo'/>
+      <ProfileInfo/>         
+      <MyPost hey= 'Yo'/>
 
        
       </div>

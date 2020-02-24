@@ -1,13 +1,21 @@
-.content{
-    grid-area: c;
-    background-color: cornflowerblue;
-    
-    
-}
-  
-  
-.content img{
-    width: 100%;
-    height: 400px;
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
 }
 
+.dialogsItems a{
+    padding: 10px;
+    color: white;
+}
+
+.dialogsItems .active {
+    color: gold;
+}
+
+.messages {
+    padding: 10px;
+}
+
+.messages .message {
+    color: white;
+}

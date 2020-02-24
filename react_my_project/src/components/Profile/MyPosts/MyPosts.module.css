@@ -2,7 +2,7 @@
 
 .item{
     color: rgb(7, 7, 7);
-    margin: 10px;
+    padding: 10px;
 }
 
 .item button {
@@ -19,4 +19,8 @@
 .like img{
     width: 20px;
     height: 20px;
+}
+
+.post{
+    margin: 10px;
 }
