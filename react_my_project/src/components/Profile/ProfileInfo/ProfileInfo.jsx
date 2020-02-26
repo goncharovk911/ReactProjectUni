@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './ProfileInfo.module.css'
 
 
-const ProfileInfo = () =>{
+const ProfileInfo = (props) =>{
     return(
       <div className={classes.content}>
         <div>
@@ -11,8 +11,7 @@ const ProfileInfo = () =>{
         <div className={classes.descriptionBlock}>
           ava + description
         </div>
-      </div>      
-      
+      </div>            
     );
 }
 

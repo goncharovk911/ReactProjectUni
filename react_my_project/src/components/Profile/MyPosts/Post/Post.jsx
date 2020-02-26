@@ -15,10 +15,8 @@ const Post = (props) =>{
             <img src='https://mocacare.com/assets/img/heart.gif'/>
           </button>
           <span>like: <ol>{props.like}</ol></span>
-        </div>
-      
-    </div>     
-    
+        </div>      
+    </div>    
   )
   
 

@@ -4,6 +4,9 @@ import Post from './Post/Post';
 
 const MyPosts = (props) => {
    
+
+    let postsElements = props.posts.map(p => <Post message = {p.message} like = {p.likesCount} image =  {p.image}/>)
+
     return(
     <div className = {classes.item}>
        <h3> My posts</h3>
@@ -16,10 +19,9 @@ const MyPosts = (props) => {
             </div>
         </div>
         <div className = {classes.post}>
-            <Post message = 'Hi, how are you?' like = '15' image = "https://img.cartoongoodies.com/wp-content/uploads/2019/11/Avatar-The-Last-Airbender-Aang-head.png"/>
-            <Post message = "It's my first post" like = '30' image = "https://img.cartoongoodies.com/wp-content/uploads/2019/11/Avatar-The-Last-Airbender-Aang-head.png"/>           
+           {postsElements}          
         </div>
-      </div>
+    </div>
     )
 }
 

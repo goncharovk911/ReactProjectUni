@@ -1,21 +1,24 @@
 .dialogs {
     display: grid;
     grid-template-columns: 2fr 10fr;
+    
 }
 
-.dialogsItems a{
+.messages{
+    color: honeydew;
     padding: 10px;
-    color: white;
+    color: rgb(228, 231, 26);
 }
 
-.dialogsItems .active {
-    color: gold;
-}
 
-.messages {
+
+.items{
     padding: 10px;
+    
+    
 }
 
-.messages .message {
-    color: white;
+.items a{
+    text-decoration: none;
+    color:rgb(87, 60, 21);
 }

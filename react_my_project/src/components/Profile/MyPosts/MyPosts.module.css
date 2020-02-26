@@ -23,4 +23,8 @@
 
 .post{
     margin: 10px;
+    
+}
+.post  div{
+    color: rgb(48, 35, 35);
 }
